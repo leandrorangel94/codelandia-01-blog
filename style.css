@@ -39,6 +39,16 @@ input::placeholder {
     justify-content: center;
 }
 
+@media (max-width: 599px) {
+    .header-input-text {
+        width: 75%;
+    }
+
+    .post-wrapper {
+        width: 75%;
+    }
+}
+
 .header-text {
     display: flex;
     justify-content: space-between;
@@ -68,9 +78,12 @@ input::placeholder {
     font-weight: 400;
 }
 
-.post-wrapper {
-    width: 50vw;
+@media (min-width: 600px) {
+    .post-wrapper {
+        width: 50%;
+    }
 }
+
 
 .date {
     margin-bottom: 8px;
